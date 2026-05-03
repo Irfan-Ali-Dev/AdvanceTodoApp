@@ -1,0 +1,114 @@
+/* Main container */
+.subTaskDiv {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 25px;
+  background: linear-gradient(145deg, #ffffff, #f3f4f6);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Input field */
+.subTask-input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s ease;
+  box-sizing: border-box;
+}
+
+.subTask-input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+/* Add button */
+.subTask-btn-add {
+  margin-top: 12px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #6366f1;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.subTask-btn-add:hover {
+  background: #4f46e5;
+  transform: translateY(-2px);
+}
+
+/* List */
+.subTask-ul {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+/* List item */
+.subTask-li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #ffffff;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: 0.2s ease;
+}
+
+.subTask-li:hover {
+  transform: scale(1.02);
+}
+
+/* Task text */
+.subTask-P {
+  flex: 1;
+  margin: 0;
+  font-size: 15px;
+  color: #333;
+  line-height: 1.4;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+/* Buttons */
+.subTask-btn-edit,
+.subTask-btn-delete {
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: 0.3s ease;
+  white-space: nowrap;
+}
+
+/* Edit button */
+.subTask-btn-edit {
+  background: #f59e0b;
+  color: white;
+}
+
+.subTask-btn-edit:hover {
+  background: #d97706;
+}
+
+/* Delete button */
+.subTask-btn-delete {
+  background: #ef4444;
+  color: white;
+}
+
+.subTask-btn-delete:hover {
+  background: #dc2626;
+}

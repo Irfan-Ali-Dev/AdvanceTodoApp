@@ -1,0 +1,130 @@
+/* Overall page styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #e0f2ff, #f7faff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+/* Container (wrap your todo app in a div if possible) */
+.todo-container {
+    background: #ffffff;
+    padding: 30px 25px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    /* width: 360px; */
+    text-align: center;
+}
+
+/* Heading */
+.mainHeading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+
+/* Input field */
+.mainInput {
+    /* width: 60%; */
+    padding: 12px 14px;
+    margin-bottom: 15px;
+    border: 2px solid #dfe6e9;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+
+.mainInput:focus {
+    border-color: #4da3ff;
+    box-shadow: 0 0 8px rgba(77, 163, 255, 0.3);
+}
+
+/* Button */
+.main-btn {
+    /* width: 30%; */
+    padding: 12px;
+    background: linear-gradient(135deg, #4da3ff, #0066ff);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 12px rgba(0, 102, 255, 0.25);
+}
+
+.main-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(0, 102, 255, 0.35);
+}
+
+.main-btn:active {
+    transform: scale(0.98);
+}   
+
+
+///* SubTask component styling */
+.ticket {
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  margin: 12px;
+  padding: 16px 18px;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: all 0.2s ease-in-out;
+}
+
+.ticket:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.sub-ticket {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.tic-heading {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+  flex: 1;
+  word-break: break-word;
+}
+
+/* Delete button */
+.tic-delete-btn {
+  border: none;
+  background: #fee2e2;
+  color: #ef4444;
+  font-size: 14px;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.tic-delete-btn:hover {
+  background: #ef4444;
+  color: white;
+  transform: scale(1.05);
+}
+
+.tic-delete-btn:active {
+  transform: scale(0.95);
+}
