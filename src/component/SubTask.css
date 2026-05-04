@@ -1,5 +1,5 @@
 /* Main container */
-.subTaskDiv {
+.sub-task-div {
   max-width: 500px;
   margin: 50px auto;
   padding: 25px;
@@ -10,7 +10,7 @@
 }
 
 /* Input field */
-.subTask-input {
+.sub-task-input {
   width: 100%;
   padding: 12px 14px;
   border-radius: 10px;
@@ -21,13 +21,13 @@
   box-sizing: border-box;
 }
 
-.subTask-input:focus {
+.sub-task-input:focus {
   border-color: #6366f1;
   box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
 }
 
 /* Add button */
-.subTask-btn-add {
+.sub-task-btn-add {
   margin-top: 12px;
   width: 100%;
   padding: 12px;
@@ -41,20 +41,20 @@
   transition: 0.3s ease;
 }
 
-.subTask-btn-add:hover {
+.sub-task-btn-add:hover {
   background: #4f46e5;
   transform: translateY(-2px);
 }
 
 /* List */
-.subTask-ul {
+.sub-task-ul {
   margin-top: 20px;
   padding: 0;
   list-style: none;
 }
 
 /* List item */
-.subTask-li {
+.sub-task-li {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -66,12 +66,12 @@
   transition: 0.2s ease;
 }
 
-.subTask-li:hover {
+.sub-task-li:hover {
   transform: scale(1.02);
 }
 
 /* Task text */
-.subTask-P {
+.sub-task-P {
   flex: 1;
   margin: 0;
   font-size: 15px;
@@ -82,8 +82,8 @@
 }
 
 /* Buttons */
-.subTask-btn-edit,
-.subTask-btn-delete {
+.sub-task-btn-edit,
+.sub-task-btn-delete {
   border: none;
   padding: 6px 10px;
   border-radius: 6px;
@@ -94,21 +94,21 @@
 }
 
 /* Edit button */
-.subTask-btn-edit {
+.sub-task-btn-edit {
   background: #f59e0b;
   color: white;
 }
 
-.subTask-btn-edit:hover {
+.sub-task-btn-edit:hover {
   background: #d97706;
 }
 
 /* Delete button */
-.subTask-btn-delete {
+.sub-task-btn-delete {
   background: #ef4444;
   color: white;
 }
 
-.subTask-btn-delete:hover {
+.sub-task-btn-delete:hover {
   background: #dc2626;
 }

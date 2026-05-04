@@ -40,8 +40,8 @@ function App() {
 
   return (
     <div className="todo-container">
-        <h1 className='mainHeading'>Advance Todo Application</h1>
-        <input className='mainInput' 
+        <h1 className='main-heading'>Advance Todo Application</h1>
+        <input className='main-input' 
         type="text"
         placeholder="Enter task Category"
         value={input1}
